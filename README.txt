@@ -1,2 +1,2 @@
 Version control of Dragon series
-hubgit address:http://hubgit.com/zterrorblade/uDragon.git
+hubgit address:https://github.com/zterrorblade/uDragon.git
