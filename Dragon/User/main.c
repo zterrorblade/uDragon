@@ -10,13 +10,14 @@
 #include <stdio.h>
 #include <string.h>
 #include "NUC472_442.h"
-#include "process.h" 
+#include "process.h"
+
 
 /* uint8_t item; */
 void Delay(uint32_t count)
 {
 	uint32_t volatile i;
-    for (i = 0; i < count ; i++);
+        for (i = 0; i < count ; i++);
 }
 
 void SYS_Init(void)

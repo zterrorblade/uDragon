@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\Library\CMSIS\Include -I..\Library\Device\Nuvoton\NUC472_442\Include -I..\Library\StdDriver\inc
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-DDEBUG_ENABLE_SEMIHOST
+-o ..\output\i2s.o --omf_browse ..\output\i2s.crf --depend ..\output\i2s.d --feedback "..\Output\Dragon.fed" "..\Library\StdDriver\src\i2s.c"

@@ -16,13 +16,13 @@
 /* !!!Maintain the consistency of declaration and definition */
 #include "process.h"
 
-#ifdef DATATYPE_UINT32
+/*# ifdef DATATYPE_UINT32 */
 uint32_t volatile rx_buff[RXBUFF_LEN] = {0}; //receive buffer
 uint32_t volatile tx_buff[TXBUFF_LEN] = {0}; //transmit buffer
-#else
+/* #else
 int32_t volatile rx_buff[RXBUFF_LEN] = {0};
 int32_t volatile tx_buff[TXBUFF_LEN] = {0}; 
-#endif
+#endif */
 
 uint32_t volatile u32rx_buffpos = 0, u32tx_buffpos = 0; //Position of Rx and Tx Buffer
 uint32_t volatile u32datacount = 0; //num need to be processed
