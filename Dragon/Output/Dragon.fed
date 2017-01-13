@@ -1,0 +1,88 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Fri Jan 13 17:28:23 2017
+;VERSION 0.2
+;FILE clk.o
+CLK_DisableCKO <= USED 0
+CLK_DisableModuleClock <= USED 0
+CLK_DisablePLL <= USED 0
+CLK_DisableSysTick <= USED 0
+CLK_DisableXtalRC <= USED 0
+CLK_EnableCKO <= USED 0
+CLK_EnablePLL <= USED 0
+CLK_EnableSysTick <= USED 0
+CLK_GetCPUFreq <= USED 0
+CLK_GetHCLKFreq <= USED 0
+CLK_GetHXTFreq <= USED 0
+CLK_GetLXTFreq <= USED 0
+CLK_GetPCLKFreq <= USED 0
+CLK_Idle <= USED 0
+CLK_PowerDown <= USED 0
+CLK_SetCoreClock <= USED 0
+CLK_SetSysTickClockSrc <= USED 0
+CLK_SysTickDelay <= USED 0
+__asm___5_clk_c_9b5832dc____REV16 <= USED 0
+__asm___5_clk_c_9b5832dc____REVSH <= USED 0
+;FILE gpio.o
+GPIO_DisableInt <= USED 0
+GPIO_EnableInt <= USED 0
+__asm___6_gpio_c_f8f858a7____REV16 <= USED 0
+__asm___6_gpio_c_f8f858a7____REVSH <= USED 0
+;FILE i2s.o
+I2S_Close <= USED 0
+I2S_DisableInt <= USED 0
+I2S_DisableMCLK <= USED 0
+I2S_SetFIFO <= USED 0
+__asm___5_i2s_c_I2S_Open____REV16 <= USED 0
+__asm___5_i2s_c_I2S_Open____REVSH <= USED 0
+;FILE main.o
+Delay <= USED 0
+__asm___6_main_c_Delay____REV16 <= USED 0
+__asm___6_main_c_Delay____REVSH <= USED 0
+;FILE nuc472_442_isr.o
+__asm___16_nuc472_442_isr_c_97a9a237____REV16 <= USED 0
+__asm___16_nuc472_442_isr_c_97a9a237____REVSH <= USED 0
+;FILE process.o
+__asm___9_process_c_rx_buff____REV16 <= USED 0
+__asm___9_process_c_rx_buff____REVSH <= USED 0
+;FILE retarget.o
+GetChar <= USED 0
+IsDebugFifoEmpty <= USED 0
+SendChar_ToUART <= USED 0
+__asm___10_retarget_c_d5a1b03f____REV16 <= USED 0
+__asm___10_retarget_c_d5a1b03f____REVSH <= USED 0
+_sys_exit <= USED 0
+_ttywrch <= USED 0
+ferror <= USED 0
+fgetc <= USED 0
+kbhit <= USED 0
+;FILE startup_nuc472_442.o
+;FILE sys.o
+SYS_ClearResetSrc <= USED 0
+SYS_DisableBOD <= USED 0
+SYS_EnableBOD <= USED 0
+SYS_GetBODStatus <= USED 0
+SYS_GetResetSrc <= USED 0
+SYS_IsRegLocked <= USED 0
+SYS_ReadPDID <= USED 0
+SYS_ResetCPU <= USED 0
+SYS_ResetChip <= USED 0
+SYS_ResetModule <= USED 0
+__asm___5_sys_c_962b9fbe____REV16 <= USED 0
+__asm___5_sys_c_962b9fbe____REVSH <= USED 0
+;FILE system_nuc472_442.o
+__asm___19_system_NUC472_442_c_5d646a67____REV16 <= USED 0
+__asm___19_system_NUC472_442_c_5d646a67____REVSH <= USED 0
+;FILE uart.o
+UART_ClearIntFlag <= USED 0
+UART_Close <= USED 0
+UART_DisableFlowCtrl <= USED 0
+UART_DisableInt <= USED 0
+UART_EnableFlowCtrl <= USED 0
+UART_EnableInt <= USED 0
+UART_Read <= USED 0
+UART_SelectIrDAMode <= USED 0
+UART_SelectRS485Mode <= USED 0
+UART_SetLine_Config <= USED 0
+UART_SetTimeoutCnt <= USED 0
+UART_Write <= USED 0
+__asm___6_uart_c_f12f5b44____REV16 <= USED 0
+__asm___6_uart_c_f12f5b44____REVSH <= USED 0
