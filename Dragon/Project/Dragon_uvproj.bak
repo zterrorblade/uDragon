@@ -362,7 +362,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\CMSIS\Include;..\Libraries\Device\Nuvoton\NUC472_442\Include;..\Libraries\StdDriver\inc</IncludePath>
+              <IncludePath>..\Library\CMSIS\Include;..\Library\Device\Nuvoton\NUC472_442\Include;..\Library\StdDriver\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -408,12 +408,12 @@
             <File>
               <FileName>system_NUC472_442.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\Device\Nuvoton\NUC472_442\Source\system_NUC472_442.c</FilePath>
+              <FilePath>..\Library\Device\Nuvoton\NUC472_442\Source\system_NUC472_442.c</FilePath>
             </File>
             <File>
               <FileName>startup_NUC472_442.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\Libraries\Device\Nuvoton\NUC472_442\Source\ARM\startup_NUC472_442.s</FilePath>
+              <FilePath>..\Library\Device\Nuvoton\NUC472_442\Source\ARM\startup_NUC472_442.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -423,37 +423,32 @@
             <File>
               <FileName>clk.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\clk.c</FilePath>
+              <FilePath>..\Library\StdDriver\src\clk.c</FilePath>
             </File>
             <File>
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\gpio.c</FilePath>
+              <FilePath>..\Library\StdDriver\src\gpio.c</FilePath>
             </File>
             <File>
               <FileName>i2s.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\i2s.c</FilePath>
+              <FilePath>..\Library\StdDriver\src\i2s.c</FilePath>
             </File>
             <File>
               <FileName>retarget.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\retarget.c</FilePath>
+              <FilePath>..\Library\StdDriver\src\retarget.c</FilePath>
             </File>
             <File>
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\sys.c</FilePath>
+              <FilePath>..\Library\StdDriver\src\sys.c</FilePath>
             </File>
             <File>
               <FileName>uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\StdDriver\src\timer.c</FilePath>
+              <FilePath>..\Library\StdDriver\src\uart.c</FilePath>
             </File>
           </Files>
         </Group>
