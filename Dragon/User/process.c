@@ -30,14 +30,13 @@ uint32_t volatile u32datacount = 0; //num need to be processed
 
 void process()
 {
-	while(u32datacount > 0)
+	while(u32datacount-- > 0)
 	{
 		tx_buff[u32tx_buffpos++] = rx_buff[u32rx_buffpos++];
 /*		u32transpos++ ;	 */
-		u32datacount--;	
-		if(u32rx_buffpos == RXBUFF_LEN)
+		if(u32rx_buffpos >= RXBUFF_LEN)
 			u32rx_buffpos -= RXBUFF_LEN;
-		if(u32tx_buffpos == TXBUFF_LEN)
+		if(u32tx_buffpos >= TXBUFF_LEN)
 			u32tx_buffpos -= TXBUFF_LEN;	
 	}
 }
