@@ -17,8 +17,8 @@
 #include "process.h"
 
 /*# ifdef DATATYPE_UINT32 */
-uint32_t volatile rx_buff[RXBUFF_LEN] = {0}; //receive buffer
-uint32_t volatile tx_buff[TXBUFF_LEN] = {0}; //transmit buffer
+I2STYPE volatile rx_buff[RXBUFF_LEN] = {0}; //receive buffer
+I2STYPE volatile tx_buff[TXBUFF_LEN] = {0}; //transmit buffer
 /* #else
 int32_t volatile rx_buff[RXBUFF_LEN] = {0};
 int32_t volatile tx_buff[TXBUFF_LEN] = {0}; 

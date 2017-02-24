@@ -12,8 +12,10 @@
 #ifndef __PROCESS_H__
 #define __PROCESS_H__
 
-extern uint32_t volatile rx_buff[RXBUFF_LEN];
-extern uint32_t volatile tx_buff[TXBUFF_LEN];
+typedef uint32_t I2STYPE;
+
+extern I2STYPE volatile rx_buff[RXBUFF_LEN];
+extern I2STYPE volatile tx_buff[TXBUFF_LEN];
 extern uint32_t volatile u32datacount;
 extern void process(void);
 
