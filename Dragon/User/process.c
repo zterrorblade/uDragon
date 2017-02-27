@@ -15,6 +15,11 @@
 
 /* !!!Maintain the consistency of declaration and definition */
 #include "process.h"
+#include "echo.h"
+#include "reverb.h"
+#include "flange"
+#include "chorus.h"
+#include "phase.h"
 
 /*# ifdef DATATYPE_UINT32 */
 I2STYPE volatile rx_buff[RXBUFF_LEN] = {0}; //receive buffer
@@ -32,6 +37,21 @@ void process()
 {
 	while(u32datacount-- > 0)
 	{
+		#ifdef ECHOING
+			echo();
+		#endif
+		#ifdef REVERBING
+			reverb();
+		#endif
+		#ifdef Flanging
+			flange();
+		#endif
+		#ifdef chorusing
+			chorus();
+		#endif
+		#ifdef phasing
+			phase();
+		#endif
 		tx_buff[u32tx_buffpos++] = rx_buff[u32rx_buffpos++];
 /*		u32transpos++ ;	 */
 		if(u32rx_buffpos >= RXBUFF_LEN)
