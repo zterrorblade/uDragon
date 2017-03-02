@@ -10,8 +10,8 @@
 /*---------------------------------------------------------------------------------------------------------*/
 /* Global variables                                                                                        */
 /*---------------------------------------------------------------------------------------------------------*/
-#define RXBUFF_LEN 4800
-#define TXBUFF_LEN 480
-#define BUFF_LEN   480
+#define RXBUFF_LEN 2400
+#define TXBUFF_LEN 2400
+#define BUFF_LEN   2400
 #define BUFF_HALF_LEN   (BUFF_LEN/2)
 

@@ -16,7 +16,7 @@ void I2S1_IRQHandler(void)
 {
 	uint32_t u32reg;/* get interrupt register flag */
 	uint32_t u32len;/* get data number of input */
-	static uint32_t volatile *prx_buff = rx_buff, *ptx_buff = tx_buff;
+	static I2STYPE *prx_buff = rx_buff, *ptx_buff = tx_buff;
 	
 	u32reg = I2S_GET_INT_FLAG(I2S1, I2S_STATUS_TXIF_Msk | I2S_STATUS_RXIF_Msk);
 	
